@@ -34,4 +34,17 @@ function make_avg(numbers, size){
 }
 const nums = [2,4,6,8];
 console.log(make_avg(nums,nums.length))
-// console.log(avg);
+
+
+// task 4/......................
+
+function count_zero(binaryString){
+    let sum=0;
+    for(let count of binaryString){
+        if(count === '0'){
+            sum++;
+        }
+    }
+    return sum;
+}
+console.log(count_zero('100001'))
